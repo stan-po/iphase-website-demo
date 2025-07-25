@@ -1,5 +1,5 @@
 import logo from './assets/logo.png';
-import logo-w from './assets/logo-w.png';
+import logow from './assets/logo-w.png';
 
 import { useState, useEffect } from 'react';
 
@@ -498,7 +498,7 @@ export default function App() {
             <div className="mb-6 md:mb-0">
               <a href="#home" className="flex items-center">
                 <img 
-                  src={logo-w}  
+                  src={logow}  
                   alt="iPhase Logo" 
                   className="h-8 object-contain"
                 />
