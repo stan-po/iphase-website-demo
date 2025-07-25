@@ -1,3 +1,5 @@
+import logo from './assets/logo.png';
+
 import { useState, useEffect } from 'react';
 
 export default function App() {
@@ -134,7 +136,7 @@ export default function App() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <a href="#home" className="flex items-center">
             <img 
-              src="https://www.iphase.com.au/images/logo.png" 
+              src={logo} 
               alt="iPhase Logo"
               className="h-8 md:h-10 object-contain"
             />
@@ -495,7 +497,7 @@ export default function App() {
             <div className="mb-6 md:mb-0">
               <a href="#home" className="flex items-center">
                 <img 
-                  src="https://www.iphase.com.au/images/logo.png" 
+                  src={logo}  
                   alt="iPhase Logo" 
                   className="h-8 object-contain"
                 />
